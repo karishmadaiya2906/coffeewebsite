@@ -1,0 +1,16 @@
+
+<html>
+    <script src="script.js"></script>
+    <body>
+        <div>what is your name ?
+            <input type="text">
+            <button>send</button>
+        </div>
+        <script>
+            document.querySelector("button").addEventListener("click",function(){
+                document.querySelector("div").textContent="hello,"+ 
+                document.querySelector("input").value;
+            })
+        </script>
+    </body>
+</html>

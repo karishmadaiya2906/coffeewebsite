@@ -1,0 +1,150 @@
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg");
+    padding: 20px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    
+    margin-right: 50%;
+    
+    font-size: larger;
+}
+.nav ul li {
+    font-style: italic;
+    align-items: end;
+    display: inline;
+    padding: 20px;
+    
+  
+    
+}
+.nav ul li a {
+    font-style: italic;
+    align-items: end;
+    text-align: end;
+    color: rgb(209, 148, 61);
+    font-weight: bolder;
+}
+.first{
+    padding: 20px;
+    margin: 30px;
+   text-align: left;
+    color:chocolate;
+    font-size:larger;
+   
+   
+}
+.thought{
+    font-size: larger;
+    color: rgb(170, 96, 26);
+
+}
+.login-btn {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    background-color:rgb(202, 182, 152); 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+/*login from*/
+
+.wrapper{
+    
+    background-color:wheat;
+    width: 420px;
+    color:black;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background:wheat;
+    margin: 30px 0;
+
+
+}
+.input-box input{
+    width:100%;
+    height: 100%;
+    background: transparent;
+    border:solid;
+    outline: none;
+    border: 1px solid ;
+    border-radius: 40px;
+    font-size: 16px;
+    color:black;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input ::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50px);
+    font-size: 20px;
+
+}
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+.remember-forgot a{
+    color:#fff;
+    text-decoration: none;
+
+}
+.remember-forgot  a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-sizing: 0 0 10px rbg(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link{
+   
+    text-align: center;
+    margin-top: 20px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+.conatiner-md{
+    box-sizing: border-box;
+    border: solid;
+}
